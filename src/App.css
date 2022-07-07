@@ -1,3 +1,7 @@
+body {
+    background-color: blueviolet;
+}
+
 .headerTitle, .footer {
     font-size: 5em;
     color: white;
@@ -5,4 +9,8 @@
 
 .header, .footer {
     background-color: blueviolet;
+}
+
+.footer {
+    padding-top: 100px;
 }
