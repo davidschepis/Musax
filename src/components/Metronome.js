@@ -12,12 +12,14 @@ const Metronome = () => {
             //do nothing
         }
         else {
-            setbpm(bpm - 1)
+            setbpm(bpm - 10);
+            stopSound();
         }
     };
 
     const raisebpm = () => {
-        setbpm(bpm + 1)
+        setbpm(bpm + 10);
+        stopSound();
     };
 
     const playSound = () => {
