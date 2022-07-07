@@ -2,15 +2,22 @@ body {
     background-color: blueviolet;
 }
 
-.headerTitle, .footer {
+.headerTitle,
+.footer {
     font-size: 5em;
     color: white;
 }
 
-.header, .footer {
+.header,
+.footer {
     background-color: blueviolet;
 }
 
 .footer {
     padding-top: 100px;
+}
+
+.metroButton:hover {
+    color: purple;
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
