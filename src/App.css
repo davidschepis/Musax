@@ -25,3 +25,8 @@ body {
 .mainCard:hover {
     cursor: pointer;
 }
+
+.beatButton:hover {
+    color: white;
+    background-color: purple;
+}

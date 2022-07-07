@@ -88,10 +88,12 @@ const BeatCreator = () => {
     };
 
     const stopBeat = async (e) => {
-        beatFlag = false;
-        e.target.innerHTML = "Stopping Next Measure...";
-        await delay(150 * snares.length);
-        e.target.innerHTML = "Stop";
+        if (beatFlag) {
+            beatFlag = false;
+            e.target.innerHTML = "Stopping Next Measure...";
+            await delay(150 * snares.length);
+            e.target.innerHTML = "Stop";
+        }
     };
 
     return (
@@ -175,8 +177,8 @@ const BeatCreator = () => {
                 </div>
             </div>
             <div className="row">
-                <button onClick={(e) => stopBeat(e)}>Stop</button>
-                <button onClick={() => playBeat()}>Play</button>
+                <button className="beatButton" onClick={(e) => stopBeat(e)}>Stop</button>
+                <button className="beatButton" onClick={() => playBeat()}>Play</button>
             </div>
         </div>
     )
