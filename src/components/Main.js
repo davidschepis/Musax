@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
-import Metronome from "./Metronome"
+import Metronome from "./Metronome";
+import BeatCreator from "./BeatCreator";
 
 const cardStyle = {
     border: "solid rgb(199, 199, 199) 2px",
@@ -108,22 +109,13 @@ const Main = () => {
                 >
                     <div className="modal-dialog modal-xl w-100" role="document">
                         <div className="modal-content">
-                            <div className="modal-header frame">
-                                <h5 className="modal-title" id="modalTitle">
-                                    Drums
-                                </h5>
-                                <button
-                                    type="button"
-                                    className="close proBtn"
-                                    aria-label="Close"
-                                    onClick={() => closeDrumModal()}
-                                >
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
+                            <div className="text-center">
+                                <h2 className="modal-title" id="modalTitle">
+                                    Beat Creator
+                                </h2>
                             </div>
                             <div className="modal-body text-center">
-
-
+                                <BeatCreator></BeatCreator>
                             </div>
                         </div>
                     </div>
@@ -141,22 +133,13 @@ const Main = () => {
                 >
                     <div className="modal-dialog modal-xl w-100" role="document">
                         <div className="modal-content">
-                            <div className="modal-header frame">
-                                <h5 className="modal-title" id="modalTitle">
-                                    Note
-                                </h5>
-                                <button
-                                    type="button"
-                                    className="close proBtn"
-                                    aria-label="Close"
-                                    onClick={() => closeNoteModal()}
-                                >
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
+                            <div className="text-center">
+                                <h2 className="modal-title" id="modalTitle">
+                                    Metronome
+                                </h2>
                             </div>
                             <div className="modal-body text-center">
-
-
+                                <Metronome></Metronome>
                             </div>
                         </div>
                     </div>
