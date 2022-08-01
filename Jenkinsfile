@@ -1,27 +1,23 @@
-// pipeline {
-//     stages {
-//         stage("Clone repo") {
-//             steps {
-//                 script {
-//                     checkout scm
-//                 }
-//             }
-//         }
-
-//         stage("Build") {
-            
-//         }
-//     }
-// }
-
 pipeline {
-    agent {
-        dockerfile true
-    }
+    agent any
+
     stages {
-        stage('Test') {
+
+        stage("build and chab") {
             steps {
-                sh 'ls'
+                echo 'building app'
+            }
+        }
+
+        stage("test and chab") {
+            steps {
+                echo 'testing app'
+            }
+        }
+
+        stage("deploy and chab") {
+            steps {
+                echo 'deploying app'
             }
         }
     }
