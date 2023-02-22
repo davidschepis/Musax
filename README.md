@@ -1,9 +1,9 @@
 # Musax
 
 ## Description
-Allows access to a metronome, drum beat creator, and key library
+Allows access to a metronome, drum beat creator, and key library(not implemented)
 
-Basic functionality all around, this application was actually created to demonstrate CI/CD pipelines using Azure as the webhost
+Basic functionality all around, this application was actually created to demonstrate CI/CD pipelines using Azure as the webhost, as well as practice using React.js
 
 ## Table of Contents
 

@@ -3,7 +3,7 @@ import { Howl, Howler } from 'howler';
 
 const Metronome = () => {
 
-    const [bpm, setbpm] = useState(0)
+    const [bpm, setbpm] = useState(140)
 
     let soundInterval = null
 
@@ -54,7 +54,7 @@ const Metronome = () => {
         <div className="card">
             <div className="card-body">
                 <div className="row">
-                    <h1>{bpm}</h1>
+                    <h1>{bpm} BPM</h1><h4>Please click stop before navigating away</h4>
                 </div>
                 <div className="row">
                     <div className="col">
