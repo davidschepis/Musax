@@ -17,6 +17,7 @@ Basic functionality all around, this application was actually created to demonst
 
  ## Links
 https://github.com/davidschepis/Musax
+
 https://davidschepis.github.io/Musax/
 
 
