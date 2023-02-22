@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Musax/static/css/main.df56a024.css",
-    "main.js": "/Musax/static/js/main.55405f2d.js",
+    "main.js": "/Musax/static/js/main.13945811.js",
     "index.html": "/Musax/index.html",
     "main.df56a024.css.map": "/Musax/static/css/main.df56a024.css.map",
-    "main.55405f2d.js.map": "/Musax/static/js/main.55405f2d.js.map"
+    "main.13945811.js.map": "/Musax/static/js/main.13945811.js.map"
   },
   "entrypoints": [
     "static/css/main.df56a024.css",
-    "static/js/main.55405f2d.js"
+    "static/js/main.13945811.js"
   ]
 }
